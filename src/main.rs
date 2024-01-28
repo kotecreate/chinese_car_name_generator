@@ -23,7 +23,6 @@ fn two() -> &'static str {
     let name: [&str; 12] = ["Zan", "Ren", "Zhang", "Gan", "Nan", "Shang", "Tang", "Fang", "Bang", "Ong", "Kai", "He"];
     let mut rng = rand::thread_rng();
     let mut num: usize = rng.gen_range(0..12);
-    num = 0;
     name[num]
 }
 fn three() -> &'static str {
